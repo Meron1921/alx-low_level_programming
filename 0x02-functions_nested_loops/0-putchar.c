@@ -1,14 +1,19 @@
-#include <stdio.h>
-
 #include "main.h"
-
-int main ()
-
+/**
+ * main - entry block
+ * @void: no argument
+ * Return: 0
+ **/
+int main(void)
 {
+	char put[] = "_putchar";
 
-printf("_putchar");
+	int i;
 
-return 0;
-
+	for (i = 0; i < 8; i++)
+	{
+		_putchar(put[c]);
+	}
+	_putchar('\n');
+	return (0);
 }
-
