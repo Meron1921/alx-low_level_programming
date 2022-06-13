@@ -24,4 +24,4 @@ void rev_string(char *s)
 		r++;
 	}
 }
-© 2022 GitHub, Inc.
+
