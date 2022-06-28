@@ -1,4 +1,4 @@
-include "main.h"
+#include "holberton.h"
 #include <stdlib.h>
 /**
  * create_array - creates an array of chars.
@@ -25,3 +25,4 @@ char *create_array(unsigned int size, char c)
 
 	return (cr);
 }
+
